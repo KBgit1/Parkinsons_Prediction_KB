@@ -19,8 +19,7 @@ with st.sidebar:
 if selected == 'Home Page':
     st.title('What is Parkinson’s Disease?')
 
-    st.image("https://img.freepik.com/free-vector/gradient-parkinson-infographic_52683-81811.jpg?ga=GA1.1.1217230711.1745908830&semt=ais_hybrid&w=740", 
-             caption="Parkinson’s Disease Illustration")
+    st.image("https://img.freepik.com/free-vector/gradient-parkinson-infographic_52683-81811.jpg?ga=GA1.1.1217230711.1745908830&semt=ais_hybrid&w=740")
 
     st.markdown("""
     ### Overview
