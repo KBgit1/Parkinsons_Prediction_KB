@@ -20,7 +20,7 @@ if selected == 'Home Page':
     st.title('What is Parkinson’s Disease?')
 
     st.image("https://img.freepik.com/free-vector/gradient-parkinson-infographic_52683-81811.jpg?ga=GA1.1.1217230711.1745908830&semt=ais_hybrid&w=740", 
-             caption="Parkinson’s Disease Illustration", use_container_width=True)
+             caption="Parkinson’s Disease Illustration")
 
     st.markdown("""
     ### Overview
@@ -46,7 +46,7 @@ if selected == 'Home Page':
     > This web application utilizes a Machine Learning model to predict the likelihood of Parkinson's Disease based on key vocal measurements.
     """)
 
-    st.image("https://www.mdpi.com/diagnostics/diagnostics-11-01892/article_deploy/html/images/diagnostics-11-01892-g001.png", use_container_width=True)
+    st.image("https://www.mdpi.com/diagnostics/diagnostics-11-01892/article_deploy/html/images/diagnostics-11-01892-g001.png")
 
 # Diagnosis Page
 elif selected == 'Diagnosis':
