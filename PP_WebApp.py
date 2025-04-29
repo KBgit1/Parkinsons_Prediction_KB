@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Load the model and the scaler from the .sav file
-loaded_model, loaded_scaler = pickle.load(open('C:/Parkinsons_Predictor/trained_model.sav', 'rb'))
+loaded_model, loaded_scaler = pickle.load(open('trained_model.sav', 'rb'))
 
 # Sidebar for navigation
 with st.sidebar:
